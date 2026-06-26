@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, PieChart, Pie, Cell, ResponsiveContainer, Legend } from "recharts";
 
-const API = "https://jwt-auth-app.onrender.com/api";
+const API = "https://stockmata-api.onrender.com";
 const getToken = () => localStorage.getItem("token");
 const getUser = () => JSON.parse(localStorage.getItem("user") || "null");
 
