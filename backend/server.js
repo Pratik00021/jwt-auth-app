@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: ["https://stockmate-app.vercel.app", "https://jwt-auth-app.vercel.app", "http://localhost:3000"],
+  origin: ["https://jwt-auth-pp.vercel.app", "http://localhost:3000"],
   credentials: true
 }));
 
